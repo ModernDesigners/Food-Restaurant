@@ -1,0 +1,74 @@
+@import "../../main/colors.scss";
+.leftside-navbar {
+  background: $NavBackground;
+  height: 100%;
+  position: fixed;
+  width: 104px;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  justify-content: space-around;
+
+  .leftside-navlink {
+    padding: 21px;
+    transition: 0.2s;
+    &:hover {
+      .leftside-navlink-box {
+        background: $MainColor;
+        box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+      }
+      svg {
+        filter: brightness(2.5);
+      }
+    }
+    .leftside-navlink-box {
+      aspect-ratio: 1;
+      height: 100%;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      transition: 0.2s;
+      svg {
+        transition: 0.1s;
+      }
+    }
+  }
+  .firstB {
+    background: rgba(235, 150, 106, 0.26);
+  }
+  .activeNav {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      border-radius: 20px 0 0 20px;
+      aspect-ratio: 1;
+      animation: navAnim 0.5s;
+      top: 0px;
+      background: $Background;
+      right: -5px;
+      z-index: -1;
+    }
+    .leftside-navlink-box {
+      background: $MainColor;
+      box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+    }
+    svg {
+      filter: brightness(2.5);
+    }
+  }
+}
+@keyframes navAnim {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
