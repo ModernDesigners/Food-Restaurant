@@ -1,0 +1,52 @@
+.Card {
+  background: #1f1d2b;
+  border-radius: 16px;
+  height: 260px;
+  width: 240px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  filter: brightness(1);
+}
+.Card:hover {
+  filter: brightness(1.1);
+}
+.Card:hover .CardImage img {
+  transform: translateY(-40px) rotate(-45deg) scale(1.1);
+}
+.Card .CardImage {
+  height: 125px;
+  text-align: center;
+}
+.Card .CardImage img {
+  transition: 0.2s;
+  transform: translateY(-40px);
+  height: 140px;
+}
+.Card .CardTitle {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 50px;
+  line-height: 20px;
+  font-family: barlow_m;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.Card .CardPrice {
+  color: #ffffff;
+  font-family: barlow_r;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 12px;
+  transition: 0.2s;
+}
+.Card .CardDesc {
+  color: #abbbc2;
+  font-family: barlow_r;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 12px;
+  text-align: center;
+  transition: 0.2s;
+}

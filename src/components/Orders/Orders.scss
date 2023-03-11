@@ -8,4 +8,23 @@
   height: 834px;
   background: #1f1d2b;
   border-radius: 8px;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  .orders-main {
+    width: 100%;
+    .item-line-info {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #393c49;
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        font-size: 16px;
+      }
+      div {
+        display: flex;
+        gap: 43px;
+      }
+    }
+  }
 }

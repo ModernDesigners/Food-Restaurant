@@ -1,0 +1,40 @@
+.HomeRowwer {
+  color: #ffffff;
+  margin-top: 20px;
+}
+.HomeRowwer .HomeRowwerStarter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HomeRowwer .HomeRowwerStarter .Starter_Text {
+  color: #ffffff;
+  font-family: barlow_sb;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.HomeRowwer .HomeRowwerStarter .Starter_Dropdown {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: #1f1d2b;
+  border: 1px solid #393c49;
+  color: #ffffff;
+  font-family: barlow_r;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.HomeRowwer .HomeRowwerStarter .Starter_Dropdown img {
+  margin-right: 10px;
+}
+.HomeRowwer .HomeRowwerCardRow {
+  display: flex;
+  margin: auto;
+  margin-top: 70px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 70px 40px;
+}

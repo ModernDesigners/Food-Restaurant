@@ -1,0 +1,80 @@
+.items {
+  margin-top: 28px;
+}
+.items .item {
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.168627451);
+  padding-bottom: 20px;
+}
+.items .item .item-topside-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items .item .item-topside-info .item-image {
+  display: flex;
+  gap: 10px;
+}
+.items .item .item-topside-info .item-image h3 {
+  width: 140px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.items .item .item-topside-info .item-image p {
+  transform: translateY(3px);
+}
+.items .item .item-topside-info .item-moreinfo {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+.items .item .item-topside-info .item-moreinfo .quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 48px;
+  height: 48px;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  transform: translateX(14px);
+  border-radius: 8px;
+}
+.items .item .item-bottomside-info {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.items .item .item-bottomside-info .item-message {
+  width: 100%;
+}
+.items .item .item-bottomside-info .item-message input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 14px 96px 14px 14px;
+  gap: 8px;
+  width: 297px;
+  height: 48px;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  color: #fff;
+  outline: none;
+}
+.items .item .item-bottomside-info .delete-item {
+  display: flex;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 45px;
+  height: 45px;
+  left: 313px;
+  top: 58px;
+  border: 1px solid #ff7ca3;
+  border-radius: 8px;
+  cursor: pointer;
+}/*# sourceMappingURL=Items.css.map */

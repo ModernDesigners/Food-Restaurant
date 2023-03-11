@@ -1,0 +1,26 @@
+.orders-header {
+  .orders-filter {
+    margin: 20px 0px;
+    gap: 8px;
+    display: flex;
+    button {
+      width: 65px;
+      height: 37px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      background: #1f1d2b;
+      border: 1px solid #393c49;
+      color: #ea7c69;
+      border-radius: 5px;
+      font-size: 12px;
+      transform: 0.3s;
+      cursor: pointer;
+      &.active {
+        background: #ea7c69;
+        color: #fff;
+      }
+    }
+  }
+}

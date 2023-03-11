@@ -32,25 +32,43 @@ h1 {
   font-size: 28px;
   line-height: 140%;
   color: #ffffff;
+  letter-spacing: 0.5px;
 }
 h2 {
   font-family: barlow_sb;
   font-size: 20px;
   line-height: 140%;
   color: #ffffff;
+  letter-spacing: 0.5px;
 }
 h3 {
   font-family: barlow_sb;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+  letter-spacing: 0.5px;
 }
 h4 {
+  font-size: 14px;
   font-family: barlow_sb;
+  color: #ffffff;
+  line-height: 140%;
+  letter-spacing: 0.5px;
 }
 input {
   font-family: barlow_m;
   letter-spacing: 1px;
+}
+button {
+  font-family: barlow_m;
+  letter-spacing: 1px;
+}
+p {
+  font-family: barlow_m;
+  font-size: 12px;
+  line-height: 140%;
+  color: #abbbc2;
+  letter-spacing: 0.5px;
 }

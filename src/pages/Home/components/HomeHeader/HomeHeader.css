@@ -1,5 +1,5 @@
 .homepage-header {
-  padding: 24px;
+  padding-top: 24px;
 }
 .homepage-header .homeheader-top {
   display: flex;
@@ -74,4 +74,4 @@
   bottom: -10px;
   transition: 0.3s;
   background: #ea7c69;
-}/*# sourceMappingURL=HomeHeader.css.map */
+}

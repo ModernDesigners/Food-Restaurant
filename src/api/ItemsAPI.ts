@@ -1,0 +1,77 @@
+export const ItemsAPI = [
+  {
+    id: 0,
+    image: "",
+    title: "Spicy seasoned seafood noodles",
+    price: 2.29,
+    aviableBowls: 20,
+    quantity: 1,
+  },
+  {
+    id: 1,
+    image: "",
+    title: "Salted Pasta with mushroom sauce",
+    price: 2.69,
+    aviableBowls: 11,
+    quantity: 1,
+  },
+  {
+    id: 2,
+    image: "",
+    title: "Beef dumpling in hot and sour soup",
+    price: 2.99,
+    aviableBowls: 16,
+    quantity: 1,
+  },
+  {
+    id: 3,
+    image: "",
+    title: "Healthy noodle with spinach leaf",
+    price: 3.29,
+    aviableBowls: 22,
+    quantity: 1,
+  },
+  {
+    id: 4,
+    image: "",
+    title: "Hot spicy fried rice with omelet",
+    price: 3.49,
+    aviableBowls: 13,
+    quantity: 1,
+  },
+  {
+    id: 5,
+    image: "",
+    title: "Spicy instant noodle with special omelette",
+    price: 3.59,
+    aviableBowls: 17,
+    quantity: 1,
+  },
+
+  {
+    id: 6,
+    image: "",
+    title: "Healthy noodle with spinach leaf",
+    price: 3.29,
+    aviableBowls: 22,
+    quantity: 1,
+  },
+
+  {
+    id: 7,
+    image: "",
+    title: "Hot spicy fried rice with omelet",
+    price: 3.49,
+    aviableBowls: 13,
+    quantity: 1,
+  },
+
+  {
+    id: 8,
+    image: "",
+    title: "Spicy instant noodle with special omelette",
+    price: 3.59,
+    aviableBowls: 17,
+    quantity: 1,
+  },
+];

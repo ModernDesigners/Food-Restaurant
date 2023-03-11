@@ -20,6 +20,7 @@ export default function HomeHeader() {
       <div className="homeheader-filter">
         {HomeFilterApi.map((e, i) => (
           <h3
+            key={i}
             className={`${activeFilter == i ? "ActiveFilter" : ""}`}
             onClick={() => setActiveFilter(i)}
           >

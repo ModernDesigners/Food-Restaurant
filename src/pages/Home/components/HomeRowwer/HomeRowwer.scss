@@ -1,0 +1,41 @@
+@import "../../../../main/colors.scss";
+.HomeRowwer {
+    color: $White;
+    margin-top: 20px;
+    .HomeRowwerStarter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .Starter_Text {
+            color: $White;
+            font-family: barlow_sb;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        .Starter_Dropdown {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            border-radius: 8px;
+            background: $NavBackground;
+            border: 1px solid $BorderColor;
+            color: $White;
+            font-family: barlow_r;
+            font-size: 18px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+    .HomeRowwerCardRow {
+        display: flex;
+        margin: auto;
+        margin-top: 70px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 70px 40px;
+    }
+}
