@@ -1,0 +1,11 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 42px;
+  width: 509px;
+  height: 834px;
+  background: #1f1d2b;
+  border-radius: 8px;
+}/*# sourceMappingURL=Orders.css.map */

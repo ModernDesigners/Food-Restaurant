@@ -1,0 +1,77 @@
+.homepage-header {
+  padding: 24px;
+}
+.homepage-header .homeheader-top {
+  display: flex;
+  justify-content: space-between;
+}
+.homepage-header .homeheader-top div:nth-child(1) h4 {
+  line-height: 140%;
+  color: #e0e6e9;
+  margin-top: 5px;
+}
+.homepage-header .homeheader-top div:nth-child(2) {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  width: 220px;
+  padding: 0px 10px;
+  align-items: center;
+  height: 48px;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}
+.homepage-header .homeheader-top div:nth-child(2) input {
+  background-color: transparent;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 15px;
+  color: #fff;
+}
+.homepage-header .homeheader-top div:nth-child(2) svg {
+  color: #fff;
+  font-size: 22px;
+}
+.homepage-header .homeheader-filter {
+  margin-top: 40px;
+  display: flex;
+  gap: 32px;
+  border-bottom: 1px solid #393c49;
+  padding-bottom: 30px;
+}
+.homepage-header .homeheader-filter h3 {
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+  position: relative;
+}
+.homepage-header .homeheader-filter h3::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  bottom: -10px;
+  transition: 0.3s;
+  background: #ea7c69;
+}
+.homepage-header .homeheader-filter h3:hover {
+  color: #ea7c69;
+}
+.homepage-header .homeheader-filter h3:hover::before {
+  width: 100%;
+}
+.homepage-header .homeheader-filter .ActiveFilter {
+  color: #ea7c69;
+}
+.homepage-header .homeheader-filter .ActiveFilter::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -10px;
+  transition: 0.3s;
+  background: #ea7c69;
+}/*# sourceMappingURL=HomeHeader.css.map */

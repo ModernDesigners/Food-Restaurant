@@ -13,16 +13,18 @@ export default function LeftsideNavbar() {
   };
 
   return (
-    <div className="leftside-navbar">
-      {NavLinksAPI.map((e, i) => (
-        <LeftsideNavLink
-          ActiveNav={ActiveNav}
-          key={i}
-          click={() => navClick(i, e)}
-          icon={e.svg}
-          first={i}
-        />
-      ))}
+    <div>
+      <div className="leftside-navbar">
+        {NavLinksAPI.map((e, i) => (
+          <LeftsideNavLink
+            ActiveNav={ActiveNav}
+            key={i}
+            click={() => navClick(i, e)}
+            icon={e.svg}
+            first={i}
+          />
+        ))}
+      </div>
     </div>
   );
 }

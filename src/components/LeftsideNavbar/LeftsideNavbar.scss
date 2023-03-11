@@ -1,8 +1,10 @@
 @import "../../main/colors.scss";
+
 .leftside-navbar {
   background: $NavBackground;
   height: 100%;
   position: fixed;
+  left: 0;
   width: 104px;
   display: flex;
   flex-direction: column;
