@@ -1,0 +1,51 @@
+@import "../../../main/colors.scss";
+.OrderAnalytics {
+    height: 40%;
+}
+.AnalyticsT {
+    background: $NavBackground;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 24px;
+    padding: 24px;
+    position: relative;
+    .MostOrderedStarter {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        .name {
+            color: $White;
+            font-family: barlow_sb;
+            letter-spacing: 2px;
+            font-size: 22px;
+        }
+        .block {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            color: $White;
+            font-family: barlow_m;
+            letter-spacing: 1px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: 1px solid $BorderColor;
+            img {
+                height: 24px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .lineO {
+        height: 1px;
+        background-color: $BorderColor;
+        width: 100%;
+        margin: 20px 0;
+        margin-top: 25px;
+    }
+}

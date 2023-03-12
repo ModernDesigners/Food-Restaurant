@@ -2,8 +2,8 @@
   display: flex;
 }
 .Dashboard .DashboardLeftSide {
-  width: 60%;
+  width: 70%;
 }
 .Dashboard .DashboardRightSide {
-  width: 40%;
+  width: 30%;
 }

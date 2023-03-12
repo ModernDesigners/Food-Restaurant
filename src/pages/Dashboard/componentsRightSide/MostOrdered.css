@@ -1,0 +1,98 @@
+.MostOrdered {
+  background: #1f1d2b;
+  height: 55%;
+  width: 90%;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 24px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.MostOrdered .MostOrderedStarter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.MostOrdered .MostOrderedStarter .name {
+  color: #ffffff;
+  font-family: barlow_sb;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+.MostOrdered .MostOrderedStarter .block {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-family: barlow_m;
+  letter-spacing: 1px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #393c49;
+}
+.MostOrdered .MostOrderedStarter .block img {
+  height: 24px;
+  margin-right: 10px;
+}
+.MostOrdered .lineO {
+  height: 1px;
+  background-color: #393c49;
+  width: 100%;
+  margin: 20px 0;
+  margin-top: 25px;
+}
+.MostOrdered .OrderedBlocks {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0px;
+  width: 100%;
+}
+.MostOrdered .OrderedBlocks .OrderedBlock {
+  display: flex;
+}
+.MostOrdered .OrderedBlocks .OrderedBlock .ImgBlock {
+  margin-right: 15px;
+}
+.MostOrdered .OrderedBlocks .OrderedBlock .ImgBlock img {
+  height: 70px;
+}
+.MostOrdered .OrderedBlocks .StatsN {
+  margin-top: 6px;
+}
+.MostOrdered .OrderedBlocks .StartN {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: barlow_m;
+  margin-bottom: 3px;
+}
+.MostOrdered .OrderedBlocks .EndN {
+  color: #abbbc2;
+  font-family: barlow_r;
+  font-size: 15px;
+}
+.MostOrdered .EndButton {
+  position: absolute;
+  bottom: 24px;
+  height: 50px;
+  width: 90%;
+  border: 2px solid #ea7c69;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-family: barlow_m;
+  color: #ea7c69;
+  background: transparent;
+  transition: 0.3s;
+}
+.MostOrdered .EndButton:hover {
+  background: #ea7c69;
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(233, 123, 103, 0.2);
+}
