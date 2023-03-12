@@ -1,0 +1,20 @@
+.homepage-header {
+  padding-top: 24px;
+}
+.homepage-header .homeheader-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #393c49;
+}
+.homepage-header .homeheader-top div h1 {
+  letter-spacing: 3px;
+  font-family: barlow_sb;
+}
+.homepage-header .homeheader-top div h4 {
+  font-family: barlow_r;
+  line-height: 140%;
+  color: #abbbc2;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}

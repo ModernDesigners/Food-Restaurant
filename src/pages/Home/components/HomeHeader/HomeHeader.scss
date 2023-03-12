@@ -1,3 +1,4 @@
+@import "../../../../main/colors.scss";
 .homepage-header {
   padding-top: 24px;
   .homeheader-top {
@@ -5,9 +6,15 @@
     justify-content: space-between;
 
     div:nth-child(1) {
+      h1 {
+        font-family: barlow_sb;
+        letter-spacing: 2px;
+      }
       h4 {
+        font-family: barlow_r;
         line-height: 140%;
-        color: #e0e6e9;
+        color: $DescText;
+        letter-spacing: 2px;
         margin-top: 5px;
       }
     }

@@ -21,8 +21,7 @@ body {
 }
 
 .App {
-  display: flex;
-  justify-content: space-between;
+  padding-left: 150px;
 }
 
 h1 {
@@ -75,4 +74,4 @@ p {
   line-height: 140%;
   color: #abbbc2;
   letter-spacing: 0.5px;
-}/*# sourceMappingURL=index.css.map */
+}

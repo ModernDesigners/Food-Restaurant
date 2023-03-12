@@ -1,0 +1,64 @@
+@import "../../../../../main/colors.scss";
+.StatCard {
+    background: $NavBackground;
+    height: 170px;
+    width: 280px;
+    border-radius: 10px;
+    padding: 17px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    &:hover {
+        transform: translateY(-5px) skewX(1deg);
+    }
+    .StatCardStart {
+        display: flex;
+        align-items: center;
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            background-color: $Background;
+            border-radius: 10px;
+            img {
+                height: 35px;
+            }
+        }
+        .Percentage {
+            font-family: barlow_sb;
+            margin-left: 10px;
+            color: $White;
+            letter-spacing: 1px;
+        }
+        .PerUp {
+            color: $GreenColor;
+        }
+        .PerDown {
+            color: $RedColor;
+        }
+        .PercentageIcon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            img {
+                height: 23px;
+                transform: translateY(1px);
+            }
+        }
+    }
+    .StatCardStartInfo {
+        color: $White;
+        font-size: 26px;
+        letter-spacing: 2px;
+        font-family: barlow_sb;
+        margin-top: 20px;
+    }
+    .StatCardStartDesc {
+        color: $DescText;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family: barlow_r;
+        margin-top: 10px;
+    }
+}

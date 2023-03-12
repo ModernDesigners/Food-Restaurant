@@ -4,8 +4,7 @@
   align-items: flex-start;
   padding: 24px;
   gap: 42px;
-  width: 509px;
-  height: 834px;
+  width: 500px;
   background: #1f1d2b;
   border-radius: 8px;
   position: fixed;
@@ -29,11 +28,20 @@
   gap: 43px;
 }
 .orders .orders-main .order-footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  border-top: 1px solid #393c49;
   padding-top: 30px;
+  padding: 24px;
+  padding-bottom: 30px;
+  background: #1f1d2b;
+  left: 0;
 }
-.orders .orders-main .order-footer div {
+.orders .orders-main .order-footer .order-footer-line {
+  border-top: 1px solid #393c49;
+  margin-bottom: 20px;
+}
+.orders .orders-main .order-footer .con {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -50,4 +58,4 @@
   cursor: pointer;
   display: block;
   margin: 40px auto 0px auto;
-}/*# sourceMappingURL=Orders.css.map */
+}

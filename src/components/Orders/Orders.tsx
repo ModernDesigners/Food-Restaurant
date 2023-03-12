@@ -25,11 +25,12 @@ export default function Orders(props: { orders: any }) {
         </div>
         <Items />
         <div className="order-footer">
-          <div>
+          <div className="order-footer-line"></div>
+          <div className="con">
             <p>Discount</p>
             <h4>$0</h4>
           </div>
-          <div>
+          <div className="con">
             <p>Sub Total</p>
             <h4>${subTotal()}</h4>
           </div>

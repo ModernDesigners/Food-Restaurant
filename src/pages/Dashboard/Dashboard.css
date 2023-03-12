@@ -1,0 +1,9 @@
+.Dashboard {
+  display: flex;
+}
+.Dashboard .DashboardLeftSide {
+  width: 60%;
+}
+.Dashboard .DashboardRightSide {
+  width: 40%;
+}

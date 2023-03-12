@@ -5,9 +5,15 @@
   display: flex;
   justify-content: space-between;
 }
+.homepage-header .homeheader-top div:nth-child(1) h1 {
+  font-family: barlow_sb;
+  letter-spacing: 2px;
+}
 .homepage-header .homeheader-top div:nth-child(1) h4 {
+  font-family: barlow_r;
   line-height: 140%;
-  color: #e0e6e9;
+  color: #abbbc2;
+  letter-spacing: 2px;
   margin-top: 5px;
 }
 .homepage-header .homeheader-top div:nth-child(2) {

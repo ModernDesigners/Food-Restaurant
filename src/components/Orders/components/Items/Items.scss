@@ -1,6 +1,7 @@
 .items {
   margin-top: 28px;
   height: 500px;
+  user-select: none;
   overflow-y: scroll;
   &::-webkit-scrollbar {
     display: none;

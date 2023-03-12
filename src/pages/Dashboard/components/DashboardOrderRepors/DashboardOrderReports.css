@@ -1,0 +1,35 @@
+.DashboardOrderReports {
+  width: 100%;
+  background: #1f1d2b;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.DashboardOrderReports .ReportsStarter {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DashboardOrderReports .ReportsStarter .name {
+  color: #ffffff;
+  font-family: barlow_sb;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+.DashboardOrderReports .ReportsStarter .block {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  color: #ffffff;
+  font-family: barlow_m;
+  letter-spacing: 1px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #393c49;
+}
+.DashboardOrderReports .ReportsStarter .block img {
+  height: 24px;
+  margin-right: 10px;
+}

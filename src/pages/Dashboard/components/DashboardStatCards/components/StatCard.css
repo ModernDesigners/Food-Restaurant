@@ -1,0 +1,63 @@
+.StatCard {
+  background: #1f1d2b;
+  height: 170px;
+  width: 280px;
+  border-radius: 10px;
+  padding: 17px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.StatCard:hover {
+  transform: translateY(-5px) skewX(1deg);
+}
+.StatCard .StatCardStart {
+  display: flex;
+  align-items: center;
+}
+.StatCard .StatCardStart .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background-color: #252836;
+  border-radius: 10px;
+}
+.StatCard .StatCardStart .icon img {
+  height: 35px;
+}
+.StatCard .StatCardStart .Percentage {
+  font-family: barlow_sb;
+  margin-left: 10px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.StatCard .StatCardStart .PerUp {
+  color: #50d1aa;
+}
+.StatCard .StatCardStart .PerDown {
+  color: #ff7ca3;
+}
+.StatCard .StatCardStart .PercentageIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.StatCard .StatCardStart .PercentageIcon img {
+  height: 23px;
+  transform: translateY(1px);
+}
+.StatCard .StatCardStartInfo {
+  color: #ffffff;
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-family: barlow_sb;
+  margin-top: 20px;
+}
+.StatCard .StatCardStartDesc {
+  color: #abbbc2;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: barlow_r;
+  margin-top: 10px;
+}

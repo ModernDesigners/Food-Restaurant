@@ -1,11 +1,11 @@
+@import "../../main/colors.scss";
 .orders {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 24px;
   gap: 42px;
-  width: 509px;
-  height: 834px;
+  width: 500px;
   background: #1f1d2b;
   border-radius: 8px;
   position: fixed;
@@ -27,10 +27,19 @@
       }
     }
     .order-footer {
+      position: absolute;
+      bottom: 0;
       width: 100%;
-      border-top: 1px solid #393c49;
       padding-top: 30px;
-      div {
+      padding: 24px;
+      padding-bottom: 30px;
+      background: $NavBackground;
+      left: 0;
+      .order-footer-line {
+        border-top: 1px solid #393c49;
+        margin-bottom: 20px;
+      }
+      .con {
         display: flex;
         justify-content: space-between;
         margin-bottom: 20px;
