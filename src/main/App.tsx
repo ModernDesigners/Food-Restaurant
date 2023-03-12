@@ -19,7 +19,7 @@ function App() {
       <div className="App">
         <LeftsideNavbar />
         <Home />
-        <Orders />
+        <Orders orders={orderItems} />
       </div>
     </ItemsProvider.Provider>
   );

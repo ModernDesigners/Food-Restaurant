@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./HomeHeader.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import { localDate } from "../../../../components/LocalDate";

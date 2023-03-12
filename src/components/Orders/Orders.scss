@@ -26,5 +26,28 @@
         gap: 43px;
       }
     }
+    .order-footer {
+      width: 100%;
+      border-top: 1px solid #393c49;
+      padding-top: 30px;
+      div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      button {
+        width: 80%;
+        height: 48px;
+        background: #ea7c69;
+        box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+        border-radius: 8px;
+        border: 0;
+        outline: none;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        margin: 40px auto 0px auto;
+      }
+    }
   }
 }

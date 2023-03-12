@@ -8,6 +8,7 @@ interface cardInterface {
   price: number;
   aviableBowls: number;
   quantity: number;
+  image: string;
 }
 
 export default function Card({
@@ -16,11 +17,16 @@ export default function Card({
   aviableBowls,
   id,
   quantity,
+  image,
 }: cardInterface) {
   const ItemsContext = useContext<any>(ItemsProvider);
   const addToOrders = () => {
+    const correctId = ItemsContext.orderItems.findIndex(
+      (e: any) => e.id === id
+    );
+
     if (ItemsContext.orderItems?.filter((e: any) => e.id === id).length > 0) {
-      ItemsContext.itemsAPIState[0].quantity += 1;
+      ItemsContext.orderItems[correctId].quantity += 1;
       ItemsContext.setItemsAPIState([...ItemsContext.itemsAPIState]);
       ItemsContext.setOrderItems([...ItemsContext.orderItems]);
     } else {
@@ -32,6 +38,7 @@ export default function Card({
           price,
           aviableBowls,
           quantity,
+          image,
         },
       ]);
     }
@@ -39,10 +46,10 @@ export default function Card({
   return (
     <div className="Card" onClick={addToOrders}>
       <div className="CardImage">
-        <img src={ProductImage} />
+        <img src={image} />
       </div>
       <div className="CardTitle">{title}</div>
-      <div className="CardPrice">$ {price}</div>
+      <div className="CardPrice">$ {price.toFixed(2)}</div>
       <div className="CardDesc">{aviableBowls} Bowls available</div>
     </div>
   );

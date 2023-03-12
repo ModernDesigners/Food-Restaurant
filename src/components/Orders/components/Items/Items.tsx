@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 
 import "./Items.css";
 
@@ -11,9 +11,11 @@ export default function Items() {
     <div className="items">
       {ItemsContext.orderItems.map((e: any, i: number) => (
         <Item
+          id={e.id}
           title={e.title}
           quantity={e.quantity}
           price={e.price.toFixed(2)}
+          image={e.image}
         />
       ))}
     </div>
