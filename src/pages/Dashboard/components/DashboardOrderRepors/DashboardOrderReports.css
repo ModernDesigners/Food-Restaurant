@@ -1,12 +1,13 @@
 .DashboardOrderReports {
   width: 100%;
   background: #1f1d2b;
-  height: 500px;
+  height: auto;
+  overflow: hidden;
   border-radius: 10px;
   margin-top: 30px;
 }
 .DashboardOrderReports .ReportsStarter {
-  padding: 24px;
+  padding: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,4 +33,35 @@
 .DashboardOrderReports .ReportsStarter .block img {
   height: 24px;
   margin-right: 10px;
+}
+.DashboardOrderReports .CatergoriesReport {
+  display: flex;
+  color: #ffffff;
+  font-family: barlow_m;
+  font-size: 17px;
+  padding: 0px 30px;
+  margin-bottom: 15px;
+}
+.DashboardOrderReports .lineReport {
+  height: 1px;
+  background-color: #393c49;
+  width: 100%;
+  margin: 10px 0;
+  margin-bottom: 0px;
+}
+.DashboardOrderReports .ProfileReportsRow {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  padding-top: 20px;
+  overflow-y: scroll;
+  height: 450px;
+  gap: 35px;
+}
+.DashboardOrderReports .ProfileReportsRow::-webkit-scrollbar {
+  width: 5px;
+  background: #2b283b;
+}
+.DashboardOrderReports .ProfileReportsRow::-webkit-scrollbar-thumb {
+  background: #38344c;
 }

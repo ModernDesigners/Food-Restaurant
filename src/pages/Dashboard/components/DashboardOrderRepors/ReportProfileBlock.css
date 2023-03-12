@@ -1,0 +1,37 @@
+.ReportProfileBlock {
+  display: flex;
+  align-items: center;
+  color: #e0e6e9;
+  font-family: barlow_r;
+}
+.ReportProfileBlock .RowSt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ReportProfileBlock .RowSt img {
+  height: 50px;
+}
+.ReportProfileBlock .ProfileStatus {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 5px 20px;
+  width: 120px;
+}
+.ReportProfileBlock .getC {
+  background: rgba(107, 226, 190, 0.24);
+  color: #50d1aa;
+}
+.ReportProfileBlock .getP {
+  background: rgba(255, 181, 114, 0.2);
+  color: #ffb572;
+}
+.ReportProfileBlock .getPr {
+  background: rgba(146, 144, 254, 0.2);
+  color: #9290fe;
+}
+.ReportProfileBlock .getDR {
+  padding-right: 40px;
+}

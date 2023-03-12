@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./HomeHeader.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import { localDate } from "../../../../components/LocalDate";
-import { HomeFilterApi } from "../../../../api/HomeFilterAPI";
+import { HomeFilterApi } from "../../../../api/HomeFiltersAPI";
 export default function HomeHeader() {
   const [activeFilter, setActiveFilter] = useState(0);
   return (

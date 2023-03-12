@@ -74,13 +74,4 @@ export const ItemsAPI = [
     aviableBowls: 13,
     quantity: 1,
   },
-
-  {
-    id: 8,
-    image: "",
-    title: "Spicy instant noodle with special omelette",
-    price: 3.59,
-    aviableBowls: 17,
-    quantity: 1,
-  },
 ];

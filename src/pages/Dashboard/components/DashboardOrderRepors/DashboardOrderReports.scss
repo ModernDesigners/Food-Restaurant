@@ -2,11 +2,12 @@
 .DashboardOrderReports {
     width: 100%;
     background: $NavBackground;
-    height: 500px;
+    height: auto;
+    overflow: hidden;
     border-radius: 10px;
     margin-top: 30px;
     .ReportsStarter {
-        padding: 24px;
+        padding: 30px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -31,6 +32,37 @@
                 height: 24px;
                 margin-right: 10px;
             }
+        }
+    }
+    .CatergoriesReport {
+        display: flex;
+        color: $White;
+        font-family: barlow_m;
+        font-size: 17px;
+        padding: 0px 30px;
+        margin-bottom: 15px;
+    }
+    .lineReport {
+        height: 1px;
+        background-color: $BorderColor;
+        width: 100%;
+        margin: 10px 0;
+        margin-bottom: 0px;
+    }
+    .ProfileReportsRow {
+        display: flex;
+        flex-direction: column;
+        padding: 0 24px;
+        padding-top: 20px;
+        overflow-y: scroll;
+        height: 450px;
+        gap: 35px;
+        &::-webkit-scrollbar {
+            width: 5px;
+            background: #2b283b;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #38344c;
         }
     }
 }
