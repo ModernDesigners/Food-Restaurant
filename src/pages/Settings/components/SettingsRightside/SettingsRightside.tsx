@@ -6,6 +6,10 @@ export default function SettingsRightside() {
     <div className="settings-rightside">
       <SettingsRightsideHeader />
       <SettingsDishes />
+      <div className="change-buttons">
+        <button>Discard Changes</button>
+        <button>Save Changes</button>
+      </div>
     </div>
   );
 }

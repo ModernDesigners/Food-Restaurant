@@ -2,7 +2,13 @@
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  padding: 30px 0px;
+  padding: 30px 0px 300px 0px;
+  height: 100%;
+  position: relative;
+  overflow-y: scroll;
+}
+.settings-dishes::-webkit-scrollbar {
+  display: none;
 }
 .settings-dishes .add-dish {
   width: 22%;

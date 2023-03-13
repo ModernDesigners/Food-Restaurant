@@ -6,8 +6,38 @@
   border-radius: 8px;
   padding: 34px;
   background: $NavBackground;
-  overflow-y: scroll;
+  position: relative;
+  overflow-y: hidden;
+
   &::-webkit-scrollbar {
     display: none;
+  }
+  .change-buttons {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: $NavBackground;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 20px;
+    button {
+      width: 172px;
+      height: 48px;
+      border: 1px solid #ea7c69;
+      border-radius: 8px;
+      cursor: pointer;
+      &:nth-child(1) {
+        background-color: transparent;
+        color: #ea7c69;
+      }
+      &:nth-child(2) {
+        background-color: #ea7c69;
+        box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.4);
+        color: #fff;
+      }
+    }
   }
 }
