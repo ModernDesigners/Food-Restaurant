@@ -49,3 +49,92 @@
         margin-top: 25px;
     }
 }
+.getAnalytics {
+    display: flex;
+    width: 100%;
+    .circleStats {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        circle {
+            fill: none;
+            stroke-width: 12px;
+            stroke-dasharray: 472;
+            transform: rotate(-90deg);
+            transform-origin: unset;
+            transition: 1.6s;
+        }
+        .cc1 {
+            stroke: $BlueColor;
+            stroke-dashoffset: 100;
+            animation: LoadAn 1s 1;
+        }
+        .cc2 {
+            stroke: $YellowColor;
+            stroke-dashoffset: 270;
+            animation: LoadAn 1s 1;
+        }
+        .cc3 {
+            stroke: $RedColor;
+            stroke-dashoffset: 270;
+            animation: LoadAn 1s 1;
+        }
+        .untL {
+            stroke-dashoffset: 500;
+        }
+
+        .bC1 {
+            fill: none;
+            stroke-width: 12px;
+            stroke: #ffffff;
+            opacity: 0.05;
+            stroke-dasharray: 472;
+            stroke-dashoffset: 00;
+        }
+        .bC2 {
+            fill: none;
+            stroke-width: 12px;
+            stroke: #ffffff;
+            stroke-dasharray: 472;
+            opacity: 0.1;
+            stroke-dashoffset: 00;
+        }
+    }
+    .infoStats {
+        margin-top: 10px;
+        .CBlock {
+            display: flex;
+            margin: 20px 0;
+            .color {
+                height: 25px;
+                aspect-ratio: 1;
+                border-radius: 50%;
+                margin: 10px;
+            }
+            .c1 {
+                background: $RedColor;
+            }
+            .c2 {
+                background: $YellowColor;
+            }
+            .c3 {
+                background: $BlueColor;
+            }
+            .tx {
+                .name {
+                    color: $White;
+                    font-size: 16px;
+                    font-family: barlow_sb;
+                    letter-spacing: 1px;
+                    margin-bottom: 3px;
+                }
+                .desc {
+                    color: $DescText;
+                    font-size: 15px;
+                    font-family: barlow_m;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}

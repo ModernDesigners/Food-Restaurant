@@ -76,10 +76,34 @@ p {
   letter-spacing: 0.5px;
 }
 
+.g-7 {
+  width: 70%;
+}
+
+.g-6 {
+  width: 60%;
+}
+
+.g-5 {
+  width: 50%;
+}
+
+.g-4 {
+  width: 40%;
+}
+
 .g-3 {
   width: 30%;
 }
 
 .g-2 {
   width: 20%;
+}
+
+.g-55 {
+  width: 55%;
+}
+
+.g-45 {
+  width: 45%;
 }

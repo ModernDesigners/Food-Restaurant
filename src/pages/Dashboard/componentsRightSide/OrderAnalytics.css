@@ -49,3 +49,90 @@
   margin: 20px 0;
   margin-top: 25px;
 }
+
+.getAnalytics {
+  display: flex;
+  width: 100%;
+}
+.getAnalytics .circleStats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getAnalytics .circleStats circle {
+  fill: none;
+  stroke-width: 12px;
+  stroke-dasharray: 472;
+  transform: rotate(-90deg);
+  transform-origin: unset;
+  transition: 1.6s;
+}
+.getAnalytics .circleStats .cc1 {
+  stroke: #65b0f6;
+  stroke-dashoffset: 100;
+  animation: LoadAn 1s 1;
+}
+.getAnalytics .circleStats .cc2 {
+  stroke: #ffb572;
+  stroke-dashoffset: 270;
+  animation: LoadAn 1s 1;
+}
+.getAnalytics .circleStats .cc3 {
+  stroke: #ff7ca3;
+  stroke-dashoffset: 270;
+  animation: LoadAn 1s 1;
+}
+.getAnalytics .circleStats .untL {
+  stroke-dashoffset: 500;
+}
+.getAnalytics .circleStats .bC1 {
+  fill: none;
+  stroke-width: 12px;
+  stroke: #ffffff;
+  opacity: 0.05;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 0;
+}
+.getAnalytics .circleStats .bC2 {
+  fill: none;
+  stroke-width: 12px;
+  stroke: #ffffff;
+  stroke-dasharray: 472;
+  opacity: 0.1;
+  stroke-dashoffset: 0;
+}
+.getAnalytics .infoStats {
+  margin-top: 10px;
+}
+.getAnalytics .infoStats .CBlock {
+  display: flex;
+  margin: 20px 0;
+}
+.getAnalytics .infoStats .CBlock .color {
+  height: 25px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin: 10px;
+}
+.getAnalytics .infoStats .CBlock .c1 {
+  background: #ff7ca3;
+}
+.getAnalytics .infoStats .CBlock .c2 {
+  background: #ffb572;
+}
+.getAnalytics .infoStats .CBlock .c3 {
+  background: #65b0f6;
+}
+.getAnalytics .infoStats .CBlock .tx .name {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: barlow_sb;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+}
+.getAnalytics .infoStats .CBlock .tx .desc {
+  color: #abbbc2;
+  font-size: 15px;
+  font-family: barlow_m;
+  letter-spacing: 1px;
+}
