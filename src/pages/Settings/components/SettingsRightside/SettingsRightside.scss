@@ -1,0 +1,13 @@
+@import "../../../../main/colors.scss";
+
+.settings-rightside {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  padding: 34px;
+  background: $NavBackground;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

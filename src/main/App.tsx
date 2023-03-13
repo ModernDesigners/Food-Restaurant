@@ -5,6 +5,7 @@ import { createContext, useState } from "react";
 export const ItemsProvider = createContext<any>({});
 import { ItemsAPI } from "../api/ItemsAPI";
 import Dashboard from "../pages/Dashboard/Dashboard";
+import Settings from "../pages/Settings/Settings";
 function App() {
   const [itemsAPIState, setItemsAPIState] = useState(ItemsAPI);
   const [orderItems, setOrderItems] = useState([]);
@@ -19,7 +20,7 @@ function App() {
     >
       <div className="App">
         <LeftsideNavbar />
-        <Dashboard />
+        <Settings />
       </div>
     </ItemsProvider.Provider>
   );

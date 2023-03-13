@@ -1,0 +1,13 @@
+.settings {
+  height: 100vh;
+  padding: 24px 0px;
+}
+.settings .header-h1 {
+  margin-bottom: 30px;
+}
+.settings .settings-main {
+  height: 90%;
+  display: flex;
+  gap: 24px;
+  padding: 0px 30px 0px 0px;
+}/*# sourceMappingURL=Settings.css.map */

@@ -10,6 +10,7 @@
   position: fixed;
   right: 0;
   height: 100%;
+  top: 0;
 }
 .orders .orders-main {
   width: 100%;
@@ -58,4 +59,4 @@
   cursor: pointer;
   display: block;
   margin: 40px auto 0px auto;
-}
+}/*# sourceMappingURL=Orders.css.map */

@@ -24,8 +24,10 @@ body {
   background-color: $Background;
 }
 .App {
+  height: 100%;
   padding-left: 150px;
 }
+
 h1 {
   font-family: barlow_sb;
   font-size: 28px;

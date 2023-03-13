@@ -1,0 +1,84 @@
+.settings-dishes {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+.settings-dishes .add-dish {
+  width: 22%;
+  height: 299px;
+  border: 1px dashed #ea7c69;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.settings-dishes .add-dish svg {
+  margin-bottom: 20px;
+}
+.settings-dishes .add-dish svg,
+.settings-dishes .add-dish h3 {
+  color: #ea7c69;
+}
+.settings-dishes .dish {
+  background: #1f1d2b;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  width: 22%;
+  height: 299px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0px;
+  position: relative;
+}
+.settings-dishes .dish .dish-image img {
+  width: 100px;
+}
+.settings-dishes .dish .dish-title {
+  width: 144px;
+  text-align: center;
+  margin: 10px 0px;
+  max-width: 100%;
+}
+.settings-dishes .dish .dish-price {
+  display: flex;
+  gap: 5px;
+}
+.settings-dishes .dish .dish-price svg {
+  color: grey;
+}
+.settings-dishes .dish .edit-dish {
+  border-radius: 0px 0px 8px 8px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: rgba(234, 124, 105, 0.2235294118);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.settings-dishes .dish .edit-dish:hover {
+  background: #ea7c69;
+}
+.settings-dishes .dish .edit-dish:hover h4 {
+  color: #fff;
+}
+.settings-dishes .dish .edit-dish:hover img {
+  filter: brightness(2);
+}
+.settings-dishes .dish .edit-dish h4 {
+  color: rgba(221, 117, 101, 0.6862745098);
+  letter-spacing: 2px;
+}
+.settings-dishes .dish .edit-dish h4,
+.settings-dishes .dish .edit-dish img {
+  transition: 0.2s;
+}/*# sourceMappingURL=SettingsDishes.css.map */

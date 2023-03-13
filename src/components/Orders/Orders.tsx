@@ -1,11 +1,15 @@
 import "./Orders.css";
 import OrdersHeader from "./components/OrdersHeader/OrdersHeader";
 import Items from "./components/Items/Items";
+import { useContext } from "react";
+import { ItemsProvider } from "../../main/App";
 
-export default function Orders(props: { orders: any }) {
+export default function Orders() {
+  const ItemsContext = useContext<any>(ItemsProvider);
+
   const subTotal = () => {
     let subtotal = 0;
-    props.orders.map((e: any) => {
+    ItemsContext.orderItems.map((e: any) => {
       subtotal += e.price * e.quantity;
     });
     return subtotal.toFixed(2);

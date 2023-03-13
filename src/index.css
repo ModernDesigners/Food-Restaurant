@@ -21,6 +21,7 @@ body {
 }
 
 .App {
+  height: 100%;
   padding-left: 150px;
 }
 
@@ -106,4 +107,4 @@ p {
 
 .g-45 {
   width: 45%;
-}
+}/*# sourceMappingURL=index.css.map */
