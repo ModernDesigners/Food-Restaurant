@@ -47,6 +47,7 @@
   gap: 32px;
   border-bottom: 1px solid #393c49;
   padding-bottom: 30px;
+  flex-wrap: wrap;
 }
 .homepage-header .homeheader-filter h3 {
   cursor: pointer;
@@ -80,4 +81,23 @@
   bottom: -10px;
   transition: 0.3s;
   background: #ea7c69;
-}/*# sourceMappingURL=HomeHeader.css.map */
+}
+
+.rmL {
+  border: 0 !important;
+  padding-bottom: 10px !important;
+}
+
+@media (max-width: 749px) {
+  .homeheader-filter {
+    justify-content: center;
+  }
+}
+@media (max-width: 649px) {
+  .rmL {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+}

@@ -39,3 +39,17 @@
         gap: 70px 40px;
     }
 }
+@media (max-width: 699px) {
+    .HomeRowwer {
+        .HomeRowwerCardRow {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 499px) {
+    .HomeRowwerStarter {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

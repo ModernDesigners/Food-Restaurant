@@ -6,6 +6,7 @@
   padding: 17px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  min-width: 255px;
 }
 .StatCard:hover {
   transform: translateY(-5px) skewX(1deg);
@@ -60,4 +61,4 @@
   letter-spacing: 1px;
   font-family: barlow_r;
   margin-top: 10px;
-}/*# sourceMappingURL=StatCard.css.map */
+}

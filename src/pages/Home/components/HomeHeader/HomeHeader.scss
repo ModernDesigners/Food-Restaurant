@@ -4,7 +4,6 @@
   .homeheader-top {
     display: flex;
     justify-content: space-between;
-
     div:nth-child(1) {
       h1 {
         font-family: barlow_sb;
@@ -50,6 +49,7 @@
     gap: 32px;
     border-bottom: 1px solid #393c49;
     padding-bottom: 30px;
+    flex-wrap: wrap;
     h3 {
       cursor: pointer;
       font-size: 18px;
@@ -86,4 +86,21 @@
     }
   }
 }
-//  mevizav cardebs da rows
+.rmL {
+  border: 0 !important;
+  padding-bottom: 10px !important;
+}
+@media (max-width: 749px) {
+  .homeheader-filter {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 649px) {
+  .rmL {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+}

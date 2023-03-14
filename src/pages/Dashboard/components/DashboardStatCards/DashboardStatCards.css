@@ -2,4 +2,12 @@
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-}/*# sourceMappingURL=DashboardStatCards.css.map */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 1299px) {
+  .StatCardsRow {
+    justify-content: center;
+  }
+}

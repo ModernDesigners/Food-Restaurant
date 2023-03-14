@@ -7,7 +7,7 @@ export default function HomeHeader() {
   const [activeFilter, setActiveFilter] = useState(0);
   return (
     <div className="homepage-header">
-      <div className="homeheader-top">
+      <div className="homeheader-top rmL">
         <div>
           <h1>Jaegar Resto</h1>
           <h4>{localDate()}</h4>

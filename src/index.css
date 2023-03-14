@@ -107,4 +107,15 @@ p {
 
 .g-45 {
   width: 45%;
-}/*# sourceMappingURL=index.css.map */
+}
+
+@media (max-width: 1277px) {
+  .App {
+    padding-left: 125px;
+  }
+}
+@media (max-width: 499px) {
+  .App {
+    padding-left: 115px;
+  }
+}

@@ -2,3 +2,13 @@
   padding: 0px 550px 0px 0px;
   width: 100%;
 }
+@media (max-width: 1277px) {
+  .homepage {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 499px) {
+  .homepage {
+    padding-right: 10px;
+  }
+}

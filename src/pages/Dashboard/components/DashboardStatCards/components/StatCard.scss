@@ -7,6 +7,7 @@
     padding: 17px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    min-width: 255px;
     &:hover {
         transform: translateY(-5px) skewX(1deg);
     }

@@ -59,4 +59,10 @@
   cursor: pointer;
   display: block;
   margin: 40px auto 0px auto;
-}/*# sourceMappingURL=Orders.css.map */
+}
+
+@media (max-width: 1277px) {
+  .orders {
+    right: 100%;
+  }
+}

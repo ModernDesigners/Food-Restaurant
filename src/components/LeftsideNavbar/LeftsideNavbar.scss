@@ -15,15 +15,7 @@
   .leftside-navlink {
     padding: 21px;
     transition: 0.2s;
-    &:hover {
-      .leftside-navlink-box {
-        background: $MainColor;
-        box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
-      }
-      img {
-        filter: brightness(2.5);
-      }
-    }
+
     .leftside-navlink-box {
       aspect-ratio: 1;
       height: 100%;
@@ -33,7 +25,14 @@
       align-items: center;
       border-radius: 8px;
       transition: 0.2s;
-      svg {
+      &:hover {
+        background: $MainColor;
+        box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+        img {
+          filter: brightness(2.5);
+        }
+      }
+      img {
         transition: 0.1s;
       }
     }
