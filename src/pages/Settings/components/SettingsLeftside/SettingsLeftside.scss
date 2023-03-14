@@ -1,10 +1,10 @@
 @import "../../../../main/colors.scss";
 .settings-leftside {
   padding: 0px;
-  width: 275px;
+  width: 360px;
   height: 100%;
   background: $NavBackground;
-
+  overflow: hidden;
   border-radius: 8px;
   img {
     height: 25px;
@@ -12,11 +12,22 @@
     opacity: 0.7;
   }
   .settings-link {
+    position: relative;
     display: flex;
     align-items: center;
     padding: 24px 0px 24px 24px;
     gap: 20px;
     transition: 0.2s all ease-in;
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      height: 0;
+      width: 3px;
+      border-radius: 10px;
+      background: $MainColor;
+      transition: 0.3s;
+    }
 
     p {
       font-size: 12px;
@@ -26,6 +37,9 @@
     cursor: pointer;
     &.active {
       background: rgba(234, 124, 105, 0.26);
+      &::before {
+        height: 50px;
+      }
     }
     &:hover {
       filter: drop-shadow(0px 8px 24px rgba(247, 247, 248, 0.2));

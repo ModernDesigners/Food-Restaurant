@@ -30,11 +30,7 @@ export const SettingLinksAPI = [
     title: "Security",
     paragraph: "Configure Password, PIN, etc",
   },
-  {
-    icon: SecurityIcon,
-    title: "Security",
-    paragraph: "Configure Password, PIN, etc",
-  },
+
   {
     icon: AboutIcon,
     title: "About Us",

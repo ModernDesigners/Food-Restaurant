@@ -18,7 +18,7 @@
   background: #ea7c69;
   box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
 }
-.leftside-navbar .leftside-navlink:hover svg {
+.leftside-navbar .leftside-navlink:hover img {
   filter: brightness(2.5);
 }
 .leftside-navbar .leftside-navlink .leftside-navlink-box {
@@ -56,7 +56,7 @@
   background: #ea7c69;
   box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
 }
-.leftside-navbar .activeNav svg {
+.leftside-navbar .activeNav img {
   filter: brightness(2.5);
 }
 
@@ -69,4 +69,4 @@
     opacity: 1;
     transform: translateX(0);
   }
-}/*# sourceMappingURL=LeftsideNavbar.css.map */
+}

@@ -17,7 +17,6 @@ export default function Item({
   image,
 }: ItemInterface) {
   const ItemsContext = useContext<any>(ItemsProvider);
-  console.log(ItemsContext.orderItems);
 
   const deleteOrder = () => {
     const afterDelete = ItemsContext.orderItems.filter((e: any) => e.id !== id);

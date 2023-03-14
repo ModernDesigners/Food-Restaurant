@@ -9,8 +9,9 @@ export default function SettingsDishes() {
         <BsPlusLg />
         <h3>Add new dish</h3>
       </div>
-      {ItemsAPI.map((e) => (
+      {ItemsAPI.map((e, i) => (
         <Dish
+          key={i}
           title={e.title}
           bowls={e.aviableBowls}
           image={e.image}

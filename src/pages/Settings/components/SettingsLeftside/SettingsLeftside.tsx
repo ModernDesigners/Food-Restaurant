@@ -3,7 +3,7 @@ import "./SettingsLeftside.css";
 import { SettingLinksAPI } from "../../../../api/SettingLinksAPI";
 import SettingsLink from "./SettingsLink";
 export default function SettingsLeftside() {
-  const [active, setActive] = useState(-1);
+  const [active, setActive] = useState(2);
   const activeFilter = (e: any) => {
     setActive(e);
   };

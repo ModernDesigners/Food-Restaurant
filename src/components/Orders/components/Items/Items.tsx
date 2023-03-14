@@ -11,6 +11,7 @@ export default function Items() {
     <div className="items">
       {ItemsContext.orderItems.map((e: any, i: number) => (
         <Item
+          key={i}
           id={e.id}
           title={e.title}
           quantity={e.quantity}

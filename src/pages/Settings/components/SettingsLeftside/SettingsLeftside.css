@@ -1,8 +1,9 @@
 .settings-leftside {
   padding: 0px;
-  width: 275px;
+  width: 360px;
   height: 100%;
   background: #1f1d2b;
+  overflow: hidden;
   border-radius: 8px;
 }
 .settings-leftside img {
@@ -11,12 +12,23 @@
   opacity: 0.7;
 }
 .settings-leftside .settings-link {
+  position: relative;
   display: flex;
   align-items: center;
   padding: 24px 0px 24px 24px;
   gap: 20px;
   transition: 0.2s all ease-in;
   cursor: pointer;
+}
+.settings-leftside .settings-link::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 0;
+  width: 3px;
+  border-radius: 10px;
+  background: #ea7c69;
+  transition: 0.3s;
 }
 .settings-leftside .settings-link p {
   font-size: 12px;
@@ -25,7 +37,10 @@
 .settings-leftside .settings-link.active {
   background: rgba(234, 124, 105, 0.26);
 }
+.settings-leftside .settings-link.active::before {
+  height: 50px;
+}
 .settings-leftside .settings-link:hover {
   filter: drop-shadow(0px 8px 24px rgba(247, 247, 248, 0.2));
   background: rgba(234, 124, 105, 0.26);
-}/*# sourceMappingURL=SettingsLeftside.css.map */
+}
