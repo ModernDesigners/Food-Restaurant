@@ -1,5 +1,6 @@
 .Dashboard {
   display: flex;
+  transition: 0.3s;
 }
 .Dashboard .DashboardLeftSide {
   width: 70%;

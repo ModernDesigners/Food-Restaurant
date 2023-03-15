@@ -1,6 +1,7 @@
 .settings {
   height: 100vh;
   padding: 24px 0px;
+  transition: 0.3s;
 }
 .settings .header-h1 {
   margin-bottom: 30px;
@@ -10,4 +11,50 @@
   display: flex;
   gap: 24px;
   padding: 0px 30px 0px 0px;
+}
+
+@media (max-width: 499px) {
+  .header-h1 {
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .settings .settings-main {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    padding: 0 5px;
+  }
+  .settings-leftside {
+    width: 100%;
+  }
+  .settings-rightside {
+    padding: 0 10px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+  .settings-rightside .topside {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .settings-rightside .change-buttons {
+    flex-direction: column-reverse;
+    bottom: 30px;
+  }
+  .settings-rightside .change-buttons button {
+    width: 100%;
+  }
+  .settings-filter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .settings-dishes {
+    justify-content: center;
+    padding-bottom: 180px;
+  }
+  .settings-dishes .add-dish {
+    min-width: 250px;
+  }
+  .settings-dishes .dish {
+    min-width: 250px;
+  }
 }
