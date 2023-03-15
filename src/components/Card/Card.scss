@@ -1,5 +1,7 @@
 @import "../../main/colors.scss";
-.Card {
+.card-main {
+  height: 305px;
+  .Card {
     background: #1f1d2b;
     border-radius: 16px;
     height: 250px;
@@ -9,77 +11,78 @@
     filter: brightness(1);
 
     &:hover {
-        height: 300px;
-        .CardButtoner {
-            height: 80px;
+      height: 300px;
+      .CardButtoner {
+        height: 80px;
+      }
+      filter: brightness(1.1);
+      .CardImage {
+        img {
+          transform: translateY(-40px) rotate(-45deg) scale(1.1);
         }
-        filter: brightness(1.1);
-        .CardImage {
-            img {
-                transform: translateY(-40px) rotate(-45deg) scale(1.1);
-            }
-        }
+      }
     }
     .CardImage {
-        height: 125px;
-        text-align: center;
-        img {
-            transition: 0.2s;
-            transform: translateY(-40px);
-            height: 140px;
-        }
+      height: 125px;
+      text-align: center;
+      img {
+        transition: 0.2s;
+        transform: translateY(-40px);
+        height: 140px;
+      }
     }
     .CardTitle {
-        color: $White;
-        font-size: 14px;
-        text-align: center;
-        padding: 0 30px;
-        line-height: 20px;
-        font-family: barlow_m;
-        letter-spacing: 2px;
-        transition: 0.2s;
+      color: $White;
+      font-size: 14px;
+      text-align: center;
+      padding: 0 30px;
+      line-height: 20px;
+      font-family: barlow_m;
+      letter-spacing: 2px;
+      transition: 0.2s;
     }
     .CardPrice {
-        color: $White;
-        font-family: barlow_r;
-        letter-spacing: 1px;
-        font-size: 14px;
-        text-align: center;
-        margin-top: 12px;
-        transition: 0.2s;
+      color: $White;
+      font-family: barlow_r;
+      letter-spacing: 1px;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 12px;
+      transition: 0.2s;
     }
     .CardDesc {
-        color: $DescText;
-        font-family: barlow_r;
-        letter-spacing: 1px;
-        font-size: 14px;
-        margin-top: 12px;
-        text-align: center;
-        transition: 0.2s;
+      color: $DescText;
+      font-family: barlow_r;
+      letter-spacing: 1px;
+      font-size: 14px;
+      margin-top: 12px;
+      text-align: center;
+      transition: 0.2s;
     }
     .CardButtoner {
-        display: flex;
-        justify-content: center;
-        height: 0;
-        transition: 0.3s;
-        overflow: hidden;
-        button {
-            width: 80%;
-            height: 40px;
-            background: #ea7c69;
-            border-radius: 8px;
-            border: 0;
-            outline: none;
-            color: #fff;
-            font-family: barlow_sb;
-            transform: translateY(20px);
-            letter-spacing: 2px;
-            cursor: pointer;
-            display: block;
-            transition: 0.2s;
-            &:hover {
-                box-shadow: 0px 0px 25px rgba(234, 124, 105, 0.2);
-            }
+      display: flex;
+      justify-content: center;
+      height: 0;
+      transition: 0.3s;
+      overflow: hidden;
+      button {
+        width: 80%;
+        height: 40px;
+        background: #ea7c69;
+        border-radius: 8px;
+        border: 0;
+        outline: none;
+        color: #fff;
+        font-family: barlow_sb;
+        transform: translateY(20px);
+        letter-spacing: 2px;
+        cursor: pointer;
+        display: block;
+        transition: 0.2s;
+        &:hover {
+          box-shadow: 0px 0px 25px rgba(234, 124, 105, 0.2);
         }
+      }
     }
+  }
 }

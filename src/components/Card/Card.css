@@ -1,32 +1,37 @@
-.Card {
+.card-main {
+  height: 305px;
+}
+.card-main .Card {
   background: #1f1d2b;
   border-radius: 16px;
   height: 250px;
   width: 240px;
   transition: 0.2s ease-in-out;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   filter: brightness(1);
 }
-.Card:hover {
+.card-main .Card:hover {
   height: 300px;
   filter: brightness(1.1);
 }
-.Card:hover .CardButtoner {
+.card-main .Card:hover .CardButtoner {
   height: 80px;
 }
-.Card:hover .CardImage img {
+.card-main .Card:hover .CardImage img {
   transform: translateY(-40px) rotate(-45deg) scale(1.1);
 }
-.Card .CardImage {
+.card-main .Card .CardImage {
   height: 125px;
   text-align: center;
 }
-.Card .CardImage img {
+.card-main .Card .CardImage img {
   transition: 0.2s;
   transform: translateY(-40px);
   height: 140px;
 }
-.Card .CardTitle {
+.card-main .Card .CardTitle {
   color: #ffffff;
   font-size: 14px;
   text-align: center;
@@ -36,7 +41,7 @@
   letter-spacing: 2px;
   transition: 0.2s;
 }
-.Card .CardPrice {
+.card-main .Card .CardPrice {
   color: #ffffff;
   font-family: barlow_r;
   letter-spacing: 1px;
@@ -45,7 +50,7 @@
   margin-top: 12px;
   transition: 0.2s;
 }
-.Card .CardDesc {
+.card-main .Card .CardDesc {
   color: #abbbc2;
   font-family: barlow_r;
   letter-spacing: 1px;
@@ -54,14 +59,14 @@
   text-align: center;
   transition: 0.2s;
 }
-.Card .CardButtoner {
+.card-main .Card .CardButtoner {
   display: flex;
   justify-content: center;
   height: 0;
   transition: 0.3s;
   overflow: hidden;
 }
-.Card .CardButtoner button {
+.card-main .Card .CardButtoner button {
   width: 80%;
   height: 40px;
   background: #ea7c69;
@@ -76,6 +81,6 @@
   display: block;
   transition: 0.2s;
 }
-.Card .CardButtoner button:hover {
+.card-main .Card .CardButtoner button:hover {
   box-shadow: 0px 0px 25px rgba(234, 124, 105, 0.2);
-}
+}/*# sourceMappingURL=Card.css.map */

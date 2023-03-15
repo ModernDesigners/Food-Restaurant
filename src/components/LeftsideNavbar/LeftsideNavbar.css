@@ -10,7 +10,7 @@
   border-bottom-right-radius: 10px;
   justify-content: space-around;
   z-index: 999;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .leftside-navbar .leftside-navlink {
   padding: 21px;
@@ -49,7 +49,7 @@
   border-radius: 20px 0 0 20px;
   aspect-ratio: 1;
   animation: navAnim 0.5s;
-  top: 0px;
+  top: -10px;
   background: #252836;
   right: -5px;
   z-index: -1;
@@ -106,11 +106,18 @@
   transform: translateY(-11px) rotate(-45deg);
 }
 
-@media (max-width: 499px) {
+@media (max-width: 500px) {
   .navToggleOff {
     left: -100%;
   }
   .burgerbarNav {
     display: flex;
   }
-}
+  .leftside-navbar .leftside-navlink {
+    height: 12.5%;
+    width: 100%;
+  }
+  .leftside-navbar .leftside-navlink .leftside-navlink-box {
+    margin: auto;
+  }
+}/*# sourceMappingURL=LeftsideNavbar.css.map */

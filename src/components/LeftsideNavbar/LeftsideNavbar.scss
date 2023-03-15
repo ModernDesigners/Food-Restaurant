@@ -12,7 +12,8 @@
   border-bottom-right-radius: 10px;
   justify-content: space-around;
   z-index: 999;
-  transition: 0.4s;
+  transition: 0.3s;
+
   .leftside-navlink {
     padding: 21px;
     transition: 0.2s;
@@ -50,7 +51,7 @@
       border-radius: 20px 0 0 20px;
       aspect-ratio: 1;
       animation: navAnim 0.5s;
-      top: 0px;
+      top: -10px;
       background: $Background;
       right: -5px;
       z-index: -1;
@@ -111,11 +112,22 @@
   }
 }
 
-@media (max-width: 499px) {
+@media (max-width: 500px) {
   .navToggleOff {
     left: -100%;
   }
   .burgerbarNav {
     display: flex;
+  }
+
+  .leftside-navbar {
+    .leftside-navlink {
+      height: calc(100% / 8);
+      width: 100%;
+
+      .leftside-navlink-box {
+        margin: auto;
+      }
+    }
   }
 }

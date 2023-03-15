@@ -1,10 +1,28 @@
 .homepage {
-  padding: 0px 550px 0px 0px;
+  padding: 0px 550px 50px 0px;
   width: 100%;
   transition: 0.3s;
+}
+@media screen and (max-width: 1589px) {
+  .HomeRowwerCardRow {
+    .card-main {
+      width: 45%;
+      .Card {
+        width: 100%;
+      }
+    }
+  }
 }
 @media (max-width: 1277px) {
   .homepage {
     padding-right: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .HomeRowwerCardRow {
+    .card-main {
+      width: 100%;
+    }
   }
 }

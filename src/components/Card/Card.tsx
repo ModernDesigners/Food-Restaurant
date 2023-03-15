@@ -44,15 +44,17 @@ export default function Card({
     }
   };
   return (
-    <div className="Card">
-      <div className="CardImage">
-        <img src={image} />
-      </div>
-      <div className="CardTitle">{title}</div>
-      <div className="CardPrice">$ {price.toFixed(2)}</div>
-      <div className="CardDesc">{aviableBowls} Bowls available</div>
-      <div className="CardButtoner">
-        <button onClick={addToOrders}>ORDER</button>
+    <div className="card-main">
+      <div className="Card">
+        <div className="CardImage">
+          <img src={image} />
+        </div>
+        <div className="CardTitle">{title}</div>
+        <div className="CardPrice">$ {price.toFixed(2)}</div>
+        <div className="CardDesc">{aviableBowls} Bowls available</div>
+        <div className="CardButtoner">
+          <button onClick={addToOrders}>ORDER</button>
+        </div>
       </div>
     </div>
   );
