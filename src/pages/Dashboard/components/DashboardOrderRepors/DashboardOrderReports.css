@@ -67,6 +67,9 @@
 }
 
 @media screen and (max-width: 771px) {
+  .DashboardOrderReports .CatergoriesReport {
+    display: none;
+  }
   .DashboardOrderReports .ReportProfileBlock {
     flex-direction: column;
     gap: 30px;
@@ -89,4 +92,4 @@
   .DashboardOrderReports .ReportProfileBlock .getDR {
     font-size: 14px;
   }
-}/*# sourceMappingURL=DashboardOrderReports.css.map */
+}

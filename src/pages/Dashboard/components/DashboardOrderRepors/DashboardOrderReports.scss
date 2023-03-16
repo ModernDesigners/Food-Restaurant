@@ -68,6 +68,9 @@
 }
 @media screen and (max-width: 771px) {
   .DashboardOrderReports {
+    .CatergoriesReport {
+      display: none;
+    }
     .ReportProfileBlock {
       flex-direction: column;
       gap: 30px;
